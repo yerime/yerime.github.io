@@ -51,16 +51,17 @@ var symbols = {
                 ["style", "width", '3000px']
             ],
             "${_Rectangle}": [
-                ["style", "height", '5020px'],
-                ["color", "background-color", 'rgba(255,255,255,1)']
+                ["color", "background-color", 'rgba(255,255,255,1)'],
+                ["gradient", "background-image", [270,[['rgba(255,255,255,1.00)',0],['rgba(0,0,0,1.00)',0]]]],
+                ["style", "height", '5020px']
             ],
             "${_Text2}": [
                 ["style", "top", '112px'],
                 ["style", "text-align", 'left'],
-                ["style", "width", '2760px'],
+                ["style", "font-size", '231px'],
                 ["style", "font-family", 'Times New Roman, Times, serif'],
                 ["style", "left", '144px'],
-                ["style", "font-size", '231px']
+                ["style", "width", '2760px']
             ]
         }
     },
@@ -68,11 +69,10 @@ var symbols = {
         "Default Timeline": {
             fromState: "Base State",
             toState: "",
-            duration: 600000,
+            duration: 603500,
             autoPlay: true,
             timeline: [
-                { id: "eid13", tween: [ "gradient", "${_Stage}", "background-image", [270,[['rgba(255,255,255,1.00)',0],['rgba(0,0,0,1.00)',0]]], { fromValue: [270,[['rgba(255,255,255,1.00)',0],['rgba(70,70,70,1.00)',100]]]}], position: 0, duration: 500 },
-                { id: "eid19", tween: [ "gradient", "${_Stage}", "background-image", [270,[['rgba(255,255,255,1.00)',0],['rgba(162,162,162,0.28)',60],['rgba(255,255,255,1.00)',84],['rgba(90,90,90,1.00)',98]]], { fromValue: [270,[['rgba(255,255,255,1.00)',0],['rgba(0,0,0,1.00)',0]]]}], position: 500, duration: 599500 }            ]
+                { id: "eid20", tween: [ "gradient", "${_Rectangle}", "background-image", [270,[['rgba(255,255,255,1.00)',0],['rgba(162,162,162,0.28)',60],['rgba(255,255,255,1.00)',84],['rgba(90,90,90,1.00)',98]]], { fromValue: [270,[['rgba(255,255,255,1.00)',0],['rgba(0,0,0,1.00)',0]]]}], position: 4000, duration: 599500 }            ]
         }
     }
 }
