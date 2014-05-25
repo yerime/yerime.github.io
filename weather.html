@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+
+<script scr="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script scr="jquery.simpleWeather.js"></script>
+
+
+<script>
+
+var updateWeather = function(location){
+	
+		$.simpleweather({
+			location:'location',
+			unit:'f',
+			success: function(weather){
+			console.log(weather);
+		
+		$("body").css("background-color", "rgb(100,100,"+weather.temp* 2 + ")");
+		
+		$("#city").css(weather.city);
+		
+		},
+		
+		
+		error: function(error){
+		console.log(error);
+		}
+		
+		});
+		
+		};
+
+		$("#submit").click(function(){
+			updateWeather($("location").var());
+			});
+			
+
+</script>
+</head>
+
+<body>
+
+<input id="location" type="text">
+<a id="submit" href="#">submit</a>
+
+<h1 id="temp"> </h1>
+<h2 id="city"></h2>
+
+</body>
+</html>

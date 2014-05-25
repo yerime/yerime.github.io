@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+
+<style>
+
+.box{
+height:200px;
+width: 200px;
+background-color:red;
+float:left;
+margin:10px;
+}
+
+.hovered{
+height:300px;
+width:300px;
+border:2px soild blue;
+}
+
+
+</style>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+/*
+var name= "Andrew";
+var age="18";
+
+name= "Andrew LeClair";
+var sayMyName= function(){
+alert(name); 
+};
+
+if (age==18){
+alert("you can vote!");
+}
+
+for(var i=0; i<100; i++) {
+
+for(var j=0; j<100; j++) {
+}
+
+}
+
+sayMyName();
+
+*/
+
+$(function() { 
+
+$(".box").click(function(){
+alert("you clicked a box");
+//$(this).hide();
+ $(this).fadeOut(100).fadeIn(100);
+
+});
+
+$(".box").hover(function(){
+// hover on
+$(this).addClass("hovered");
+}, function(){
+// hover off
+$(this).removeClass("hovered");
+});
+
+$(".box").html("<h1>box</h1>");
+
+	$("body").append("<div class='box'></div>");
+
+
+});
+
+</script>
+
+</head>
+<body>
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+</body>
+
+</html>
