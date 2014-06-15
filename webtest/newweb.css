@@ -1,0 +1,388 @@
+
+@media all and (max-width:800px) {
+ #gnb{
+ 	margin:0 auto;
+ 	height:15px;
+ 	background-color:#D9DBCB;
+    position: absoulte;
+    text-align:center;
+    }
+    
+ .grid {
+ 	margin: 0 150px;
+	padding: 150px 50px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+	}
+ 
+	.txtb{
+  	  margin: 0 auto;
+      font-size: 24px;
+      color: #727271;
+      font-weight: 100;
+      max-width:800px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+ 	  padding:0 50px;
+ 	}
+   	
+}
+
+
+
+
+
+@media all and (max-width:640px) {
+
+ .grid {
+ 	margin: 0 50px;
+	padding: 150px 50px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+	}
+
+
+ 
+    }
+    
+    
+    
+@media all and (max-width:480px) {
+
+ .grid {
+ 	margin: 0 5px;
+	padding: 150px 50px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+	}
+
+
+ 
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    body {
+      background: #D9DBCB;
+      padding: 0;
+      text-align: center;
+      font-family: 'nexa_boldregular';
+      position: relative;
+      margin: 0;
+      width: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+   .main {
+      width: 100%;
+      margin: 0 auto;
+    }  
+    
+    
+    #gnb{
+    position: absoulte;
+    padding:30px;
+    text-align:right;
+    }
+	
+	ul{
+		margin:0
+		}
+		
+  
+  	li{ 
+  		color:white;
+  		list-style-type: none;
+  		float: right;
+  		font-size:14pt;
+  		margin-right: 30px;
+  		}
+  	
+  	a{ 
+  		color:white;
+  		text-decoration:none;
+  		.transition(all .3s ease-in-out);
+  		}
+  		
+  	#gnb li:hover{
+  		border-bottom: 5px solid white;
+  		}
+  		
+  
+  
+  	.cover1{
+  	width:100%;
+  	height:100vh;
+  	background-color:#F1EE4F;
+  	}
+  
+  
+    h1, h2 {
+      width: 100%;
+    }
+    
+    p{
+      margin: 0 auto;
+      font-size: 24px;
+      color: #727271;
+      font-weight: 100;
+      max-width:800px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      }
+   
+      
+   
+    
+    
+    .main h1 {
+      margin: 0 auto;
+      padding:30px 0;
+      width: 100%;
+      z-index: 1;
+      font-size: 60px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      color: white;
+    }
+    
+     
+    .main h2 {
+      margin: 0px auto 50px auto;
+      padding: 30px 0;
+      border-top: 5px solid white;
+      max-width: 300px;
+      font-size: 36px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      color: white;
+    
+    }
+    
+    .intro{
+    	position: relative;
+       	margin: 0 auto;
+       	padding: 100px 0; 
+       	width:100%;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 	    background-size: cover;
+    	}
+    	
+    
+ 	#design{
+ 
+ 	}
+ 	
+ 	#me{
+ 	
+ 	}
+ 	
+/*********************************************************   WORK  ************************************************/
+
+#here{
+	margin:0 auto;
+	}
+	
+.grid {
+	padding: 150px 50px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
+}
+
+
+
+.grid li {
+	display: inline-block;
+	margin: 0px;
+	padding: 8px;
+}
+
+
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+
+.grid figure img {
+	max-width:352px;
+	max-height: 233px;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: -8px;
+	padding: 23px;
+	background: #fdfdfc;
+	color: #525252;
+}
+
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #525252;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	
+}
+
+.grid figcaption a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px 5px 15px;
+	display: inline-block;
+	color: #727271;
+	border: 3px solid #727271;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.grid figcaption a:hover {
+	color: #F1EE4F;
+	border: 3px solid #F1EE4F;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+figcaption {
+	width:306px;
+	height: 190px;		
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cs-style-1 figcaption {
+	width:306px;
+	height: 190px;	
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+
+figcaption:hover {
+	-webkit-opacity: 100;
+	-moz-opacity: 100;
+	opacity: 100;
+   -webkit-transform: translate(0px, 8px);
+	-moz-transform: translate(0px, 8px);
+	-ms-transform: translate(0px, 8px);
+	transform: translate(0px, 8px);
+}
+	
+
+.cs-style-1 figcaption h3 {
+	margin-top: 20px;
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+
+
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}
+
+ 	
+
+		
+/*********************************************************   me  ************************************************/		
+		
+  	
+  	#cover2{
+  	width:100%;
+  	padding:100px 0;
+  	background-color:#F1EE4F;
+  	}
+  	
+  	.mepic{
+  	width:300px;
+  	}
+  	
+  	
+  	.projects {
+    display: -moz-inline-box;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+	margin: 80px 0px;
+}
+
+.projects p {
+   text-align: left;
+   font-size: 16px;
+   color:#727271;
+}
+
+.projects a {
+   color:#727271;
+}
+
+
+
+.projects_title {
+	text-align: left;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects span {
+	color: rgba(84,84,84,0.5);
+}
+
+
+.projects_title h3 {
+	color:white;
+	border-bottom: 5px solid white;
+	padding-bottom: 0px;
+	width: 300px;
+}
+
+.sort {
+	margin-top: -10px;
+	padding-bottom: 13px;
+}
+
+.sort span {
+color: rgba(81,81,81,0.4);
+}
+
+
+  			
+	
