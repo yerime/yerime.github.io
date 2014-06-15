@@ -52,12 +52,14 @@
     
 @media all and (max-width:480px) {
 
-
-	.haaaa{
-	margin: 0 -100px;
-	width: 350%;
+.grid {
+ 	margin: 0 -40px;
+	padding: 150px 50px;
+	max-width: 1300px;
+	list-style: none;
+	text-align: center;
 	}
-
+	
   .down{
   visibility: hidden;
   }
