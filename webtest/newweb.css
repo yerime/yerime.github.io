@@ -52,16 +52,19 @@
     
 @media all and (max-width:480px) {
 
- .grid {
- 	margin: 0 5px;
-	padding: 150px 50px;
-	max-width: 1300px;
-	list-style: none;
-	text-align: center;
+
+	.haaaa{
+	margin: 0 -100px;
+	width: 350%;
 	}
 
+  .down{
+  visibility: hidden;
+  }
 
- 
+
+
+	
     }
     
     
@@ -196,6 +199,7 @@
 /*********************************************************   WORK  ************************************************/
 
 #here{
+	position: relative;
 	margin:0 auto;
 	}
 	
